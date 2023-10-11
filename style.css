@@ -5,11 +5,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
 }
 
 body {
@@ -78,6 +95,7 @@ header nav .search {
   padding: 4px;
   border-radius: 10px;
 }
+
 
 .navbar .logo a {
   color: #fff;
